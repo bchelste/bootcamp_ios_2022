@@ -1,0 +1,6 @@
+framework module Pods_piscineDay07V2 {
+  umbrella header "Pods-piscineDay07V2-umbrella.h"
+
+  export *
+  module * { export * }
+}

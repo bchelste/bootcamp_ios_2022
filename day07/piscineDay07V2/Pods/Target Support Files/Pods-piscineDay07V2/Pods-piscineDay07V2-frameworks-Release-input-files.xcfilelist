@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-piscineDay07V2/Pods-piscineDay07V2-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/ForecastIO/ForecastIO.framework
+${BUILT_PRODUCTS_DIR}/JSONJoy-Swift/JSONJoy.framework
+${BUILT_PRODUCTS_DIR}/RecastAI/RecastAI.framework

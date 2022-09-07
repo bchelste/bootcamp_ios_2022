@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C02EA26D69DBBFF12CE03FE /* Pods_piscineDay07.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D720FF83FBB863CA15A1 /* Pods_piscineDay07.framework */; };
+		A901E56428AE700A00F5DCE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901E56328AE700A00F5DCE0 /* AppDelegate.swift */; };
+		A901E56628AE700A00F5DCE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901E56528AE700A00F5DCE0 /* SceneDelegate.swift */; };
+		A901E56828AE700A00F5DCE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901E56728AE700A00F5DCE0 /* ViewController.swift */; };
+		A901E56D28AE700B00F5DCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A901E56C28AE700B00F5DCE0 /* Assets.xcassets */; };
+		A901E57028AE700B00F5DCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A901E56E28AE700B00F5DCE0 /* LaunchScreen.storyboard */; };
+		A9BBF30C28AFD2D1001697C4 /* RecastAIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BBF30B28AFD2D1001697C4 /* RecastAIController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		714713385F5591B61FD0C710 /* Pods-piscineDay07.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piscineDay07.debug.xcconfig"; path = "Target Support Files/Pods-piscineDay07/Pods-piscineDay07.debug.xcconfig"; sourceTree = "<group>"; };
+		8488D720FF83FBB863CA15A1 /* Pods_piscineDay07.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_piscineDay07.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E76FD4DC1214CBE976936A /* Pods-piscineDay07.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piscineDay07.release.xcconfig"; path = "Target Support Files/Pods-piscineDay07/Pods-piscineDay07.release.xcconfig"; sourceTree = "<group>"; };
+		A901E56028AE700A00F5DCE0 /* piscineDay07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piscineDay07.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A901E56328AE700A00F5DCE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A901E56528AE700A00F5DCE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A901E56728AE700A00F5DCE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A901E56C28AE700B00F5DCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A901E56F28AE700B00F5DCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A901E57128AE700B00F5DCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BBF30B28AFD2D1001697C4 /* RecastAIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecastAIController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A901E55D28AE700A00F5DCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C02EA26D69DBBFF12CE03FE /* Pods_piscineDay07.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71473720F4B9D61714140D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8488D720FF83FBB863CA15A1 /* Pods_piscineDay07.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D213ACBA6C2C4181B491ECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				714713385F5591B61FD0C710 /* Pods-piscineDay07.debug.xcconfig */,
+				A4E76FD4DC1214CBE976936A /* Pods-piscineDay07.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A901E55728AE700A00F5DCE0 = {
+			isa = PBXGroup;
+			children = (
+				A901E56228AE700A00F5DCE0 /* piscineDay07 */,
+				A901E56128AE700A00F5DCE0 /* Products */,
+				8D213ACBA6C2C4181B491ECF /* Pods */,
+				71473720F4B9D61714140D82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A901E56128AE700A00F5DCE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A901E56028AE700A00F5DCE0 /* piscineDay07.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A901E56228AE700A00F5DCE0 /* piscineDay07 */ = {
+			isa = PBXGroup;
+			children = (
+				A901E56328AE700A00F5DCE0 /* AppDelegate.swift */,
+				A901E56528AE700A00F5DCE0 /* SceneDelegate.swift */,
+				A901E56728AE700A00F5DCE0 /* ViewController.swift */,
+				A9BBF30B28AFD2D1001697C4 /* RecastAIController.swift */,
+				A901E56C28AE700B00F5DCE0 /* Assets.xcassets */,
+				A901E56E28AE700B00F5DCE0 /* LaunchScreen.storyboard */,
+				A901E57128AE700B00F5DCE0 /* Info.plist */,
+			);
+			path = piscineDay07;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A901E55F28AE700A00F5DCE0 /* piscineDay07 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A901E57428AE700B00F5DCE0 /* Build configuration list for PBXNativeTarget "piscineDay07" */;
+			buildPhases = (
+				DF7A90C46827A65E05307EB4 /* [CP] Check Pods Manifest.lock */,
+				A901E55C28AE700A00F5DCE0 /* Sources */,
+				A901E55D28AE700A00F5DCE0 /* Frameworks */,
+				A901E55E28AE700A00F5DCE0 /* Resources */,
+				FDE82DC1849B62A62D5906B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piscineDay07;
+			productName = piscineDay07;
+			productReference = A901E56028AE700A00F5DCE0 /* piscineDay07.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A901E55828AE700A00F5DCE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A901E55F28AE700A00F5DCE0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A901E55B28AE700A00F5DCE0 /* Build configuration list for PBXProject "piscineDay07" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A901E55728AE700A00F5DCE0;
+			productRefGroup = A901E56128AE700A00F5DCE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A901E55F28AE700A00F5DCE0 /* piscineDay07 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A901E55E28AE700A00F5DCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A901E57028AE700B00F5DCE0 /* LaunchScreen.storyboard in Resources */,
+				A901E56D28AE700B00F5DCE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF7A90C46827A65E05307EB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-piscineDay07-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE82DC1849B62A62D5906B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piscineDay07/Pods-piscineDay07-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piscineDay07/Pods-piscineDay07-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-piscineDay07/Pods-piscineDay07-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A901E55C28AE700A00F5DCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A901E56828AE700A00F5DCE0 /* ViewController.swift in Sources */,
+				A901E56428AE700A00F5DCE0 /* AppDelegate.swift in Sources */,
+				A901E56628AE700A00F5DCE0 /* SceneDelegate.swift in Sources */,
+				A9BBF30C28AFD2D1001697C4 /* RecastAIController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A901E56E28AE700B00F5DCE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A901E56F28AE700B00F5DCE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A901E57228AE700B00F5DCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A901E57328AE700B00F5DCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A901E57528AE700B00F5DCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714713385F5591B61FD0C710 /* Pods-piscineDay07.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = piscineDay07/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchelste.piscineDay07;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A901E57628AE700B00F5DCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E76FD4DC1214CBE976936A /* Pods-piscineDay07.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = piscineDay07/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchelste.piscineDay07;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A901E55B28AE700A00F5DCE0 /* Build configuration list for PBXProject "piscineDay07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A901E57228AE700B00F5DCE0 /* Debug */,
+				A901E57328AE700B00F5DCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A901E57428AE700B00F5DCE0 /* Build configuration list for PBXNativeTarget "piscineDay07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A901E57528AE700B00F5DCE0 /* Debug */,
+				A901E57628AE700B00F5DCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A901E55828AE700A00F5DCE0 /* Project object */;
+}

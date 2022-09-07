@@ -1,0 +1,16 @@
+PODS:
+  - bchelste2022 (0.1.7)
+
+DEPENDENCIES:
+  - bchelste2022
+
+SPEC REPOS:
+  trunk:
+    - bchelste2022
+
+SPEC CHECKSUMS:
+  bchelste2022: f5fa0f3ad363a498ba83cc77548a746657a7538d
+
+PODFILE CHECKSUM: cabedfebaec84dbd25fd5ee4053424192cd2bfaf
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A9455AAC453DF6EC3586241 /* Pods_piscineDay09.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD63BB2C5E20AEFD7CA150A /* Pods_piscineDay09.framework */; };
+		A98EB06828B39B0000FCF9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB06728B39B0000FCF9C7 /* AppDelegate.swift */; };
+		A98EB06A28B39B0000FCF9C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB06928B39B0000FCF9C7 /* SceneDelegate.swift */; };
+		A98EB06C28B39B0000FCF9C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB06B28B39B0000FCF9C7 /* ViewController.swift */; };
+		A98EB07128B39B0200FCF9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98EB07028B39B0200FCF9C7 /* Assets.xcassets */; };
+		A98EB07428B39B0200FCF9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98EB07228B39B0200FCF9C7 /* LaunchScreen.storyboard */; };
+		A98EB07C28B3E13D00FCF9C7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB07B28B3E13D00FCF9C7 /* AuthViewController.swift */; };
+		A98EB07E28B4377100FCF9C7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB07D28B4377100FCF9C7 /* CustomTableViewCell.swift */; };
+		A98EB08128B44C3400FCF9C7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB08028B44C3400FCF9C7 /* SecondViewController.swift */; };
+		A98EB08328B53A8800FCF9C7 /* LocalizedExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB08228B53A8800FCF9C7 /* LocalizedExtention.swift */; };
+		A98EB09128B53E1700FCF9C7 /* MyLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A98EB09328B53E1700FCF9C7 /* MyLocalizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AD63BB2C5E20AEFD7CA150A /* Pods_piscineDay09.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_piscineDay09.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CAC9C01CAD5353D398697 /* Pods-piscineDay09.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piscineDay09.debug.xcconfig"; path = "Target Support Files/Pods-piscineDay09/Pods-piscineDay09.debug.xcconfig"; sourceTree = "<group>"; };
+		A98EB06428B39B0000FCF9C7 /* piscineDay09.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piscineDay09.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98EB06728B39B0000FCF9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98EB06928B39B0000FCF9C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A98EB06B28B39B0000FCF9C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A98EB07028B39B0200FCF9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98EB07328B39B0200FCF9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A98EB07528B39B0200FCF9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98EB07B28B3E13D00FCF9C7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		A98EB07D28B4377100FCF9C7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A98EB08028B44C3400FCF9C7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A98EB08228B53A8800FCF9C7 /* LocalizedExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedExtention.swift; sourceTree = "<group>"; };
+		A98EB08E28B53DF500FCF9C7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A98EB09228B53E1700FCF9C7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MyLocalizable.strings; sourceTree = "<group>"; };
+		BF43A4683400498F40FD4198 /* Pods-piscineDay09.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piscineDay09.release.xcconfig"; path = "Target Support Files/Pods-piscineDay09/Pods-piscineDay09.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98EB06128B39B0000FCF9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9455AAC453DF6EC3586241 /* Pods_piscineDay09.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14051CD017FED7137E19B008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD63BB2C5E20AEFD7CA150A /* Pods_piscineDay09.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D8F3168846FF4CF15727A1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				849CAC9C01CAD5353D398697 /* Pods-piscineDay09.debug.xcconfig */,
+				BF43A4683400498F40FD4198 /* Pods-piscineDay09.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A98EB05B28B39B0000FCF9C7 = {
+			isa = PBXGroup;
+			children = (
+				A98EB06628B39B0000FCF9C7 /* piscineDay09 */,
+				A98EB06528B39B0000FCF9C7 /* Products */,
+				6D8F3168846FF4CF15727A1F /* Pods */,
+				14051CD017FED7137E19B008 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A98EB06528B39B0000FCF9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98EB06428B39B0000FCF9C7 /* piscineDay09.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98EB06628B39B0000FCF9C7 /* piscineDay09 */ = {
+			isa = PBXGroup;
+			children = (
+				A98EB08228B53A8800FCF9C7 /* LocalizedExtention.swift */,
+				A98EB06728B39B0000FCF9C7 /* AppDelegate.swift */,
+				A98EB09328B53E1700FCF9C7 /* MyLocalizable.strings */,
+				A98EB06928B39B0000FCF9C7 /* SceneDelegate.swift */,
+				A98EB07D28B4377100FCF9C7 /* CustomTableViewCell.swift */,
+				A98EB07B28B3E13D00FCF9C7 /* AuthViewController.swift */,
+				A98EB06B28B39B0000FCF9C7 /* ViewController.swift */,
+				A98EB08028B44C3400FCF9C7 /* SecondViewController.swift */,
+				A98EB07028B39B0200FCF9C7 /* Assets.xcassets */,
+				A98EB07228B39B0200FCF9C7 /* LaunchScreen.storyboard */,
+				A98EB07528B39B0200FCF9C7 /* Info.plist */,
+			);
+			path = piscineDay09;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98EB06328B39B0000FCF9C7 /* piscineDay09 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98EB07828B39B0200FCF9C7 /* Build configuration list for PBXNativeTarget "piscineDay09" */;
+			buildPhases = (
+				C7F4C4947D3A668C7E23AC1D /* [CP] Check Pods Manifest.lock */,
+				A98EB06028B39B0000FCF9C7 /* Sources */,
+				A98EB06128B39B0000FCF9C7 /* Frameworks */,
+				A98EB06228B39B0000FCF9C7 /* Resources */,
+				CBBA859FB4E020F89E6D117F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piscineDay09;
+			productName = piscineDay09;
+			productReference = A98EB06428B39B0000FCF9C7 /* piscineDay09.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98EB05C28B39B0000FCF9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A98EB06328B39B0000FCF9C7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A98EB05F28B39B0000FCF9C7 /* Build configuration list for PBXProject "piscineDay09" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = A98EB05B28B39B0000FCF9C7;
+			productRefGroup = A98EB06528B39B0000FCF9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98EB06328B39B0000FCF9C7 /* piscineDay09 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98EB06228B39B0000FCF9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98EB09128B53E1700FCF9C7 /* MyLocalizable.strings in Resources */,
+				A98EB07428B39B0200FCF9C7 /* LaunchScreen.storyboard in Resources */,
+				A98EB07128B39B0200FCF9C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7F4C4947D3A668C7E23AC1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-piscineDay09-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBA859FB4E020F89E6D117F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piscineDay09/Pods-piscineDay09-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-piscineDay09/Pods-piscineDay09-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-piscineDay09/Pods-piscineDay09-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98EB06028B39B0000FCF9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98EB08128B44C3400FCF9C7 /* SecondViewController.swift in Sources */,
+				A98EB08328B53A8800FCF9C7 /* LocalizedExtention.swift in Sources */,
+				A98EB07C28B3E13D00FCF9C7 /* AuthViewController.swift in Sources */,
+				A98EB07E28B4377100FCF9C7 /* CustomTableViewCell.swift in Sources */,
+				A98EB06C28B39B0000FCF9C7 /* ViewController.swift in Sources */,
+				A98EB06828B39B0000FCF9C7 /* AppDelegate.swift in Sources */,
+				A98EB06A28B39B0000FCF9C7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A98EB07228B39B0200FCF9C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98EB07328B39B0200FCF9C7 /* Base */,
+				A98EB08E28B53DF500FCF9C7 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A98EB09328B53E1700FCF9C7 /* MyLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98EB09228B53E1700FCF9C7 /* ru */,
+			);
+			name = MyLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98EB07628B39B0200FCF9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98EB07728B39B0200FCF9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98EB07928B39B0200FCF9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849CAC9C01CAD5353D398697 /* Pods-piscineDay09.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = piscineDay09/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchelste.piscineDay09;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A98EB07A28B39B0200FCF9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF43A4683400498F40FD4198 /* Pods-piscineDay09.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = piscineDay09/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchelste.piscineDay09;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98EB05F28B39B0000FCF9C7 /* Build configuration list for PBXProject "piscineDay09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98EB07628B39B0200FCF9C7 /* Debug */,
+				A98EB07728B39B0200FCF9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98EB07828B39B0200FCF9C7 /* Build configuration list for PBXNativeTarget "piscineDay09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98EB07928B39B0200FCF9C7 /* Debug */,
+				A98EB07A28B39B0200FCF9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98EB05C28B39B0000FCF9C7 /* Project object */;
+}

@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ForecastIO (8.0.0)
+  - JSONJoy-Swift (3.0.3)
+  - RecastAI (2.1.1):
+    - Alamofire
+    - JSONJoy-Swift
+
+DEPENDENCIES:
+  - ForecastIO
+  - RecastAI
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ForecastIO
+    - JSONJoy-Swift
+    - RecastAI
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ForecastIO: 68f8231be20748446036263a438cc449886a65ca
+  JSONJoy-Swift: 01a29108143d3c994f7f64d7c9a393699478c49b
+  RecastAI: fbd30f5ee187e578613d75089054217f073d5d38
+
+PODFILE CHECKSUM: f689fae797fe2873df571e09d2a2515cd1fadb2a
+
+COCOAPODS: 1.11.3
