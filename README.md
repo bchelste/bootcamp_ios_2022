@@ -16,6 +16,10 @@ calculator
 - chain calculations
 - overflows
 
+![imaged0001](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day00_01.gif)
+![imaged0002](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day00_02.gif)
+
+
 ---
 ## Day01
 
