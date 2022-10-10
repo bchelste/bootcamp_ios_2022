@@ -3,7 +3,7 @@
 my swift ios piscine 2022 from École 42
 (without groop projects, a desided not to include them here)
 
-|all the projects were done with UIKit and without Storyboards|
+| all the projects were done with UIKit and without Storyboards |
 
 ---
 ## Day00 
@@ -14,6 +14,19 @@ calculator
 - (+ - / * AC NEG = 0...9)
 - division by 0
 - chain calculations
+- overflows
+
+---
+## Day01
+
+card game
+
+---
+## Day02
+
+"Death note"
+
+- 
 
 
 
