@@ -79,6 +79,8 @@ search with localization tweets by keyword
 - SegmentedControlBar
 - MKAnnotationView
 
+![imaged0501](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day05_01.gif)
+
 ---
 
 
