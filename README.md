@@ -70,6 +70,16 @@ search with localization tweets by keyword
 
 ---
 
+## Day05
+
+- MapKit
+- CoreLocation
+- TapBarController
+- TableView
+- SegmentedControlBar
+- MKAnnotationView
+
+---
 
 
 
