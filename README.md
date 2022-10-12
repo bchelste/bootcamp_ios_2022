@@ -36,9 +36,20 @@ card game
 - navigation controller (navigation bar)
 - date picker, text field, test view
 
+![imaged0201](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day02_01.gif)
+![imaged0202](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day02_02.gif)
 
+---
+## Day03
 
+heavy images from NASA
 
+- collection view
+- multithread
+- alerts
+- scroll view
+
+---
 
 
 
