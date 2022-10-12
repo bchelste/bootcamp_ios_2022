@@ -53,5 +53,23 @@ heavy images from NASA
 
 ---
 
+## Day04
+
+Tweets
+
+search with localization tweets by keyword
+
+- HTTP requests
+- API Twitter
+- table view
+- models
+- protocols
+- delegates
+
+
+
+---
+
+
 
 
