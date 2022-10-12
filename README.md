@@ -24,13 +24,19 @@ calculator
 ## Day01
 
 card game
+(there was nothing interesting in this day, only basics of swift)
 
 ---
 ## Day02
 
 "Death note"
 
-- 
+- table view
+- custom cels
+- navigation controller (navigation bar)
+- date picker, text field, test view
+
+
 
 
 
