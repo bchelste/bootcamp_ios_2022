@@ -49,6 +49,8 @@ heavy images from NASA
 - alerts
 - scroll view
 
+![imaged0301](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day03_01.gif)
+
 ---
 
 
