@@ -135,7 +135,7 @@ Personnal Diary
 
 ## Rush01
 
-***
+*
 group project (we did this project with random peer from the bootcmap)
 
 routes from A poit to B point
