@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rush01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nrh-7Y-gDt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iac-71-sC8">
+                                <rect key="frame" x="20" y="816" width="374" height="60"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jBU-Gv-Hi9">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="61"/>
+                                        <segments>
+                                            <segment title="Standart"/>
+                                            <segment title="Satellite"/>
+                                            <segment title="Hybrid"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="mapChanges:" destination="BYZ-38-t0r" eventType="valueChanged" id="Lwr-AZ-Wv4"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5o-kM-nUY">
+                                        <rect key="frame" x="304" y="0.0" width="70" height="60"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="button_my_location.png"/>
+                                        <connections>
+                                            <action selector="userLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CTl-5l-bw1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="m5o-kM-nUY" firstAttribute="leading" secondItem="jBU-Gv-Hi9" secondAttribute="trailing" id="qct-XK-8B9"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="x18-bS-heL">
+                                <rect key="frame" x="20" y="44" width="374" height="76"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Start:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YKx-N0-YKZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Finish:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q7V-oh-E4d">
+                                        <rect key="frame" x="0.0" y="42" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="OBm-cZ-3bG">
+                                <rect key="frame" x="20" y="128" width="374" height="31"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djc-tI-je5">
+                                        <rect key="frame" x="0.0" y="0.0" width="172" height="31"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Get route"/>
+                                        <connections>
+                                            <action selector="getRoute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E2O-sL-bxS"/>
+                                        </connections>
+                                    </button>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xBt-sB-xxp">
+                                        <rect key="frame" x="197" y="0.0" width="177" height="32"/>
+                                        <segments>
+                                            <segment title="automobile"/>
+                                            <segment title="walk"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="transportType:" destination="BYZ-38-t0r" eventType="valueChanged" id="3Hk-jv-V1D"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OBm-cZ-3bG" firstAttribute="top" secondItem="x18-bS-heL" secondAttribute="bottom" constant="8" symbolic="YES" id="67v-LT-dbs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iac-71-sC8" secondAttribute="trailing" constant="20" id="7na-sX-chc"/>
+                            <constraint firstItem="x18-bS-heL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9AM-id-ujP"/>
+                            <constraint firstItem="x18-bS-heL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FZu-ZK-Dve"/>
+                            <constraint firstItem="nrh-7Y-gDt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Pf9-PC-cdn"/>
+                            <constraint firstItem="iac-71-sC8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Rff-am-dh7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OBm-cZ-3bG" secondAttribute="trailing" constant="20" id="S4r-Jg-Ckn"/>
+                            <constraint firstItem="nrh-7Y-gDt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="V8Y-q4-VT1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x18-bS-heL" secondAttribute="trailing" constant="20" id="cR7-ea-2Bv"/>
+                            <constraint firstItem="OBm-cZ-3bG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cUr-9l-RLA"/>
+                            <constraint firstAttribute="bottom" secondItem="iac-71-sC8" secondAttribute="bottom" constant="20" id="j6K-nm-w4D"/>
+                            <constraint firstItem="nrh-7Y-gDt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="l8p-wI-WQO"/>
+                            <constraint firstAttribute="bottom" secondItem="nrh-7Y-gDt" secondAttribute="bottom" id="zzW-ur-FIV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="finishLocation" destination="q7V-oh-E4d" id="bA2-6m-Jhy"/>
+                        <outlet property="getRoute" destination="Djc-tI-je5" id="Vuv-gW-Yml"/>
+                        <outlet property="mapView" destination="nrh-7Y-gDt" id="kHT-b8-rnC"/>
+                        <outlet property="startLocation" destination="YKx-N0-YKZ" id="pEb-gn-GfB"/>
+                        <outlet property="userLocation" destination="m5o-kM-nUY" id="yG1-vk-vNb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.333333333333336" y="117.1875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button_my_location.png" width="46" height="46"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
