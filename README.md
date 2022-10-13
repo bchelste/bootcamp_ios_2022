@@ -92,6 +92,7 @@ Shapes
 - UIDynamicAnimator
 - UIDynamicBehavior
 
+![imaged0601](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day06_01.gif)
 
 ---
 
@@ -104,7 +105,5 @@ Weather forecast
 - API DarkSky
 
 get coordinates by city name (from RecastAI) -> get weather forecast by coordinates (from DarkSky)
-
-![imaged0701](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Day07_01.gif)
 
 ---
