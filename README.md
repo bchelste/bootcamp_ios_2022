@@ -107,3 +107,31 @@ Weather forecast
 get coordinates by city name (from RecastAI) -> get weather forecast by coordinates (from DarkSky)
 
 ---
+
+## Day08
+
+CoreData
+
+creating own pod 'bchelste2022'
+
+you can find this pod in Cocoapods
+
+- CoreData
+- Cocoapods
+
+---
+
+## Day09
+
+Personnal Diary
+
+- pod from Day08 was used
+- LocalAuthentification (TouchID, FaceID, password)
+- app does not run in the background
+
+
+
+---
+
+
+
