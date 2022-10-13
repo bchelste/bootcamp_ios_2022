@@ -139,7 +139,7 @@ group project (we did this project with random peer from the bootcmap)
 
 routes from A poit to B point
 
-![imagedR01](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Rush_01.gif)
+![imagedR01](https://github.com/bchelste/bootcamp_ios_2022/blob/main/utils/Rush01_01.gif)
 
 ---
 
