@@ -99,7 +99,7 @@ Shapes
 
 Weather forecast
 
-- Cocoapods
+- Cocoapods (RecastAI Pod, Dark Sky Pod)
 - API RecastAI
 - API DarkSky
 
