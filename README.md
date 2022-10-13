@@ -95,4 +95,14 @@ Shapes
 
 ---
 
+## Day07
 
+Weather forecast
+
+- Cocoapods
+- API RecastAI
+- API DarkSky
+
+get coordinates by city name (from RecastAI) -> get weather forecast by coordinates (from DarkSky)
+
+---
