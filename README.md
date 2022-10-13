@@ -83,5 +83,16 @@ search with localization tweets by keyword
 
 ---
 
+## Day06
+
+Shapes
+
+- UIGestureRecognizer (Pan, Pinch, Rotation)
+- CoreMotion
+- UIDynamicAnimator
+- UIDynamicBehavior
+
+
+---
 
 
